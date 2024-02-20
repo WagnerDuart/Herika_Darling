@@ -1,6 +1,11 @@
+import {Contact} from '@/components/layout/Navibar_contact'
+import {Menu} from '@/components/layout/Navibar_menu'
 export function App() {
   return (
-    <h1>Hello World</h1>
+    <div>
+      <Contact/>
+      <Menu/>
+    </div>
   )
 }
 

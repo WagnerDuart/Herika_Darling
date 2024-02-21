@@ -1,7 +1,7 @@
 import '@/index.css'
 import { Button } from '@/components/ui/button';
 // import { LOGO1 } from './logos';
-import { Logo2 } from './logosvg';
+import { Logo2 } from './logo_menu';
 import { faClock } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 

@@ -23,7 +23,7 @@ const Footer = () => {
                         <p>Trabalhe Conosco</p>
                     </div>
                     <div>
-                        <h1 className="text-amber-800" >Contato</h1>
+                        <h1 className="text-amber-800" >Serviços</h1>
                         <br />
                         <p>Lavada Especial</p>
                         <p>Corte Feminino</p>

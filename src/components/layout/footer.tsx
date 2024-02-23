@@ -7,7 +7,7 @@ const Footer = () => {
     const color = "#FFFFFF";
     return (
         <footer>
-            <div className="container bg-black text-white p-4 mx-auto flex flex-col lg:flex-row justify-between items-center">
+            <div className="container mt-16 bg-black text-white p-4 mx-auto flex flex-col lg:flex-row justify-between items-center">
                 <div className="mb-4 lg:mb-0 lg:w-1/2 text-center flex flex-col items-center">
                     <Logo3></Logo3>
                     <p className="p-4">

@@ -1,6 +1,10 @@
 import { Logo3 } from "./logo_footer";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
+    const color = "#FFFFFF";
     return (
         <footer>
             <div className="container bg-black text-white p-4 mx-auto flex flex-col lg:flex-row justify-between items-center">
@@ -36,8 +40,8 @@ const Footer = () => {
                         <br />
                         <p>Fale Conosco</p>
                         <p>Agendar Horario</p>
-                        <p>77777777777</p>
-                        <p>77777777777</p>
+                        <p><FontAwesomeIcon icon={faPhone} style={{ color }} /> (33)98701-0721 </p>
+                        <p><FontAwesomeIcon icon={faWhatsapp} style={{ color }} /> (33)98701-0721 </p>
                     </div>
                 </div>
             </div>

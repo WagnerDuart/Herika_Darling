@@ -34,7 +34,7 @@ export const Servicos = () => {
                             className="relative p-4 rounded-md shadow-md overflow-hidden transition-all duration-300 transform bg-opacity-80 hover:scale-105 group"
                         >
                             <div
-                                className="bg-image absolute inset-0 opacity-0 hover:opacity-40 transition-opacity"
+                                className="bg-image absolute inset-0 opacity-0 hover:opacity-70 transition-opacity"
                                 style={{
                                     background: `url(${imagem})`,
                                     backgroundRepeat: 'no-repeat',

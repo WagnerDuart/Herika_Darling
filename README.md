@@ -9,7 +9,7 @@ Um site para um salão de beleza
 
 
 ## Descrição
-A nossa proposta foi desenvolver um site para o Herika Darling espaço de Beleza, da cidade de Comercinho. Desenvolvemos algo simples, mas que representa a sofisticação, o conforto e cuidado que são marcas registradas do espaço. Com este projeto buscamos alcançar um público maior, atrair mais clienes e permitir a facilidade no agendamento de serviços.
+A proposta foi desenvolver um site para o Herika Darling espaço de Beleza, da cidade de Comercinho. Desenvolvemos algo simples, mas que representa a sofisticação, o conforto e cuidado que são marcas registradas do espaço. Com este projeto buscamos alcançar um público maior, atrair mais clienes e permitir a facilidade no agendamento de serviços.
 
 ## Objetivos
 * Promover o espaço;
@@ -19,6 +19,10 @@ A nossa proposta foi desenvolver um site para o Herika Darling espaço de Beleza
 
 ## Público-Alvo
 * Homens e mulheres de todas as idades que gostam de se cuidar, que gostam de cuidar da pele e da autoestima.
+
+## Como fazer o acesso e uso da aplicação ?
+Para acessar o conteúdo do site, acesse diretamente pelo link [HerikaDarlingEspaçoDeBeleza](link do site na web).
+Navegue e conheça a equipe, um pouco dos procedimentos, veja valores e conheça mais sobre a história de como começou o sonho do espaço.
 
 ## Funcionalidades
 O projeto possui as seguintes funcionalidades:
@@ -67,9 +71,6 @@ O site conta com integrações com APIs (com banco de dados) externas, que tamb�
 ## Manutenção e Suporte
 Procedimentos de atualização e melhoria, atualização de conteúdo fixo, correção de bugs e suporte técnico, são de responsabilidade dos desenvolvedores.
 
-## Como fazer o acesso e uso da aplicação ?
-Para acessar o conteúdo do site, acesse diretamente pelo link [HerikaDarlingEspaçoDeBeleza](link do site na web).
-Navegue e conheça a equipe, um pouco dos procedimentos, veja valores e conheça mais sobre a história de como começou o sonho do espaço.
 
 ## Licenças
 * Licença de uso

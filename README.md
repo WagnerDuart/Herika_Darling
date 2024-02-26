@@ -64,6 +64,10 @@ Este site contém informações de beleza e procedimentos estéticos oferecidos 
 ## Tecnologias usadas
 * React
 * Tailwind
+* Typescript
+* Vite
+* Eslint
+* Autoprefixer
 
 ## Integrações
 O site conta com integrações com APIs (com banco de dados) externas, que também foram criadas pelos desenvolvedores. links de integração com Whatsapp,instagram e algumas imagens.

@@ -22,7 +22,8 @@ A nossa proposta foi desenvolver um site para o Herika Darling espaço de Beleza
 
 ## Funcionalidades
 O projeto possui as seguintes funcionalidades:
-Permite a proprietaria cadastrar:
+Permite a proprietaria 
+* Cadastrar:
     * Cadastrar Serviços e procedimentos;
     * Cadastrar Funcionários.
 * Atualizar
@@ -30,7 +31,7 @@ Permite a proprietaria cadastrar:
     * Imagens;
     * Descrições dos serviços;
     * Descrição, formação e nome dos funcionários.
-* Permite excluir:
+* Excluir:
     * Serviços;
     * Dados de Funcionários;
     * imagens.

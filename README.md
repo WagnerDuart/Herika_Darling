@@ -35,7 +35,7 @@ Permite a proprietaria
     * Serviços;
     * Dados de Funcionários;
     * imagens.
-*Permite ao cliente
+* Permite ao cliente:
    * Visualizar os serviços disponíveis;
    * Marcar seu horário através de uma agenda on-line (será implementado em futuras versões), no momento o cliente será redirecionado para o atendimento via Whatsapp;
    * As profissionais e a formação individual de cada uma.

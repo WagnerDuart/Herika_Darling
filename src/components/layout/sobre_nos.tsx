@@ -1,19 +1,21 @@
 import "@/index.css";
 
+const imagem = 'https://img.hotimg.com/imagem02.png'
+
 export const Sobre_nos = () => {
   return (
-    <article className="flex flex-col md:flex-row-reverse">
-      <div className="w-full md:w-1/2 p-4">
+    <article className="h-screen flex flex-col sm:flex-row md:flex-row-reverse">
+      <div className="w-full sm:w-1/2 md:w-1/2 p-4">
         <div className="right-section">
-          {/* Aqui você pode adicionar a imagem */}
+        <img src={imagem} alt="Imagem" className="w-11/12 md:w-full max-w-screen-md h-auto hidden md:block" />
         </div>
       </div>
-      <div className="w-full md:w-1/2 flex flex-col items-center md:items-start p-4">
+      <div className="w-full sm:w-1/2 md:w-1/2 flex flex-col items-center sm:items-start md:items-start p-4">
         <div className="conteudo container text-left mb-4">
           <h1 className="text-justify  container text-3xl font-semibold text-black-600">
             Sobre o
           </h1>
-          <h2 className="text-justify container text-2xl font-medium text-bronzeado_claro">
+          <h2 className="text-justify container text-2xl font-medium text-amber-800">
             HERIKA DARLIGN espaço de beleza
           </h2>
           <p className="text-justify container text-base font-normal text-Black-400">
@@ -24,7 +26,7 @@ export const Sobre_nos = () => {
           </p>
         </div>
 
-        <div className="grid container grid-cols-1 md:grid-cols-2 gap-4 text-left">
+        <div className="grid container grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 text-left">
           <div className="service mb-4 container">
             <h3 className="text-center container text-1,5xl font-medium text-bronzeado_claro">
               Micropigmentação

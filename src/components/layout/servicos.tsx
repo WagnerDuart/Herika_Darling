@@ -27,7 +27,7 @@ export const Servicos = () => {
             backgroundSize: '200px 400px',
             backgroundPosition: 'top left',
         }}>
-            <div className="relative">
+            <div className="relative h-screen">
                 <div className="relative group mt-16 mb-16">
                     <div className="container mt-16 mb-16 text-center">
                         <p className="text-lg text-gray-800 font-semibold h-4">Nossos</p>

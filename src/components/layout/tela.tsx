@@ -1,5 +1,7 @@
 import { Button } from "../ui/button";
-import imagem from '@/images/tela_esquerda.png';
+
+
+const imagem = 'https://img.hotimg.com/herika.cop.png'
 
 export const Tela = () => {
     return (

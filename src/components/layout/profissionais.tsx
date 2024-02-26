@@ -20,14 +20,14 @@ export const Profissionais = () => {
   }, []);
 
   return (
-    <div className="h-screen flex flex-wrap justify-center">
+    <div className="min-h-screen flex flex-wrap justify-center">
       <div className="container mt-16 mb-16 text-center">
-        <p className="text-lg text-gray-800 font-semibold h-4">Nossos</p>
+        <p className="text-lg text-gray-800 font-semibold mb-2">Nossos</p>
         <p className="text-3xl text-amber-800 font-semibold">Profissionais</p>
       </div>
       {profissionais.map((profissional) => (
-        <div key={profissional._id} className="w-full lg:w-1/3 px-4 mb-8">
-          <div className="bg-white rounded-lg shadow-md p-6 ">
+        <div key={profissional._id} className="w-full lg:w-1/2 xl:w-1/3 px-4 mb-8">
+          <div className="bg-white rounded-lg shadow-md p-6">
             <div className="flex justify-center">
               <svg
                 className="rounded-full border-4 border-primary"
@@ -40,14 +40,23 @@ export const Profissionais = () => {
                 focusable="false"
               >
                 <title>Placeholder</title>
-                <rect
-                  width="100%"
-                  height="100%"
-                  fill="var(--bs-secondary-color)"
-                />
+                {profissional.image_src ? (
+                  <image
+                    href={profissional.image_src}
+                    width="100%"
+                    height="100%"
+                    preserveAspectRatio="xMidYMid slice"
+                  />
+                ) : (
+                  <rect
+                    width="100%"
+                    height="100%"
+                    fill="var(--bs-secondary-color)"
+                  />
+                )}
               </svg>
             </div>
-            <div className="text-center mt-4 rounded-md">
+            <div className="text-center mt-4">
               <h2 className="text-lg mb-2 text-center text-amber-800 font-semibold">
                 {profissional.name}
               </h2>

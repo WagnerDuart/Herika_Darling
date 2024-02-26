@@ -12,6 +12,13 @@ export const Menu = () => {
         setMenuOpen(!menuOpen);
     };
 
+    const whatss = () => {
+        const phoneNumber = '+5577991835717';
+        const message = 'Olá, quero agendar um horário.';
+        const whatsappLink = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+        window.open(whatsappLink, '_blank');
+    };
+
     return (
         <nav className="Navigation bg-white shadow-md">
             <div className="container mx-auto flex justify-between items-center p-4">
@@ -30,10 +37,13 @@ export const Menu = () => {
                         <li>SERVIÇOS</li>
                         <li>PROFISSIONAIS</li>
                         <li>CONTATO</li>
-                        <Button className="bg-bronzeado_claro text-white">AGENDAR HORÁRIO <FontAwesomeIcon icon={faClock} className="ml-2" /></Button>
+                        <Button className="bg-bronzeado_claro text-white" onClick={whatss}>
+                            AGENDAR HORÁRIO <FontAwesomeIcon icon={faClock} className="ml-2" />
+                        </Button>
                     </ul>
                 </div>
             </div>
         </nav>
     );
 };
+

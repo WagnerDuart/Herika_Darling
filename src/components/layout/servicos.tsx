@@ -1,6 +1,10 @@
 import { useState, useEffect } from 'react';
 import { Button } from '../ui/button';
-import imagem from '@/images/fundo_servico.png';
+
+
+const imagem = "https://img.hotimg.com/fundo_servico.png"
+
+
 interface Servico {
     _id: string;
     name_serv: string;

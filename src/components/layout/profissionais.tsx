@@ -20,7 +20,7 @@ export const Profissionais = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-wrap justify-center">
+    <div className="min-h-screen mt-16 flex flex-wrap justify-center">
       <div className="container mt-16 mb-16 text-center">
         <p className="text-lg text-gray-800 font-semibold mb-2">Nossos</p>
         <p className="text-3xl text-amber-800 font-semibold">Profissionais</p>

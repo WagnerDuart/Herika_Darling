@@ -12,4 +12,6 @@ const LOGO1 = () => {
     )
 } 
 
+
+//logo feito a mão
 export{LOGO1}

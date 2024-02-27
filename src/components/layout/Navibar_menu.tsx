@@ -1,29 +1,49 @@
-import '@/index.css'
+import '@/index.css';
+import { useState } from 'react';
 import { Button } from '@/components/ui/button';
-// import { LOGO1 } from './logos';
-import { Logo2 } from './logosvg';
+import { Logo2 } from './logo_menu';
 import { faClock } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const Menu = () => {
-    return(
-        <nav className="Navigation">
-            <div className="navigation_menu container flex justify-between bg-slate-500" >
-                {/* <LOGO1></LOGO1> */}
-                <Logo2></Logo2>
+    const [menuOpen, setMenuOpen] = useState(false);
 
-                <div className='bg-red-500 flex '>
-                    <ul className='flex justify-center items-center flex-row space-x-6' style={{ fontFamily: 'Syne, sans-serif' }}>
-                        <li className='text-bronzeado_claro'>HOME</li>
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    };
+
+    const whatss = () => {
+        const phoneNumber = '+5577991835717';
+        const message = 'Olá, quero agendar um horário.';
+        const whatsappLink = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+        window.open(whatsappLink, '_blank');
+    };
+
+    return (
+        <nav className="Navigation bg-white shadow-md">
+            <div className="container mx-auto flex justify-between items-center p-4">
+                <Logo2 />
+
+                <div className="lg:hidden">
+                    <button onClick={toggleMenu} className="text-gray-600 focus:outline-none">
+                        {menuOpen ? 'Fechar' : 'Menu'}
+                    </button>
+                </div>
+
+                <div className={`lg:flex lg:items-center ${menuOpen ? 'block' : 'hidden'}`}>
+                    <ul className="lg:flex justify-center items-center space-x-6 lg:space-x-8">
+                        <li className="text-bronzeado_claro">HOME</li>
                         <li>SOBRE NÓS</li>
                         <li>SERVIÇOS</li>
                         <li>PROFISSIONAIS</li>
                         <li>CONTATO</li>
-                        <Button>AGENDAR HORÁRIO <FontAwesomeIcon icon={faClock} style={{  marginLeft: '5px' }} /></Button>
+                        <Button className="bg-bronzeado_claro text-white" onClick={whatss}>
+                            AGENDAR HORÁRIO <FontAwesomeIcon icon={faClock} className="ml-2" />
+                        </Button>
                     </ul>
                 </div>
-                
             </div>
         </nav>
     );
 };
+
